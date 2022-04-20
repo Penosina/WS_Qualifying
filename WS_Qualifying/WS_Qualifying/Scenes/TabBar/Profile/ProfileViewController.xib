@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Manrope-Bold.ttf">
+            <string>Manrope-Bold</string>
+        </array>
+        <array key="Manrope-Regular.ttf">
+            <string>Manrope-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController" customModule="WS_Qualifying" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="4pz-Q3-g2E">
+                    <rect key="frame" x="143" y="100" width="128" height="128"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1g0-fx-Eox">
+                    <rect key="frame" x="24" y="339" width="366" height="56"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6U-CO-JsF">
+                            <rect key="frame" x="8" y="8" width="7.5" height="40"/>
+                            <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="16"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Codezima" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3b-LF-otF">
+                            <rect key="frame" x="23.5" y="17" width="75" height="22"/>
+                            <fontDescription key="fontDescription" name="Manrope-Regular" family="Manrope" pointSize="16"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5,7k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="soB-Wn-Emi">
+                            <rect key="frame" x="326.5" y="8" width="31.5" height="40"/>
+                            <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="16"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.55294117649999996" green="0.53725490200000003" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="soB-Wn-Emi" secondAttribute="trailing" constant="8" id="4l1-Wf-xhM"/>
+                        <constraint firstItem="k3b-LF-otF" firstAttribute="centerY" secondItem="1g0-fx-Eox" secondAttribute="centerY" id="9Zn-5d-oCA"/>
+                        <constraint firstItem="soB-Wn-Emi" firstAttribute="top" secondItem="1g0-fx-Eox" secondAttribute="top" constant="8" id="Eyq-Vs-Db8"/>
+                        <constraint firstItem="X6U-CO-JsF" firstAttribute="top" secondItem="1g0-fx-Eox" secondAttribute="top" constant="8" id="Lms-t9-lsM"/>
+                        <constraint firstAttribute="height" constant="56" id="MAP-9i-tuF"/>
+                        <constraint firstItem="X6U-CO-JsF" firstAttribute="leading" secondItem="1g0-fx-Eox" secondAttribute="leading" constant="8" id="dAh-eq-mWV"/>
+                        <constraint firstAttribute="bottom" secondItem="soB-Wn-Emi" secondAttribute="bottom" constant="8" id="m0u-fb-bgJ"/>
+                        <constraint firstItem="k3b-LF-otF" firstAttribute="leading" secondItem="X6U-CO-JsF" secondAttribute="trailing" constant="8" id="rwg-Pi-pRS"/>
+                        <constraint firstAttribute="bottom" secondItem="X6U-CO-JsF" secondAttribute="bottom" constant="8" id="t82-fH-xul"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Codezima" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avS-Iu-sGd">
+                    <rect key="frame" x="109.5" y="244" width="195" height="55"/>
+                    <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="40"/>
+                    <color key="textColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Последняя игра" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2GA-RO-tpG">
+                    <rect key="frame" x="24" y="435" width="193" height="33"/>
+                    <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="24"/>
+                    <color key="textColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YbN-Ll-2Jw">
+                    <rect key="frame" x="24" y="484" width="366" height="176"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kekl" translatesAutoresizingMaskIntoConstraints="NO" id="vrW-h7-q09">
+                            <rect key="frame" x="218" y="0.0" width="148" height="176"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rM1-Fl-Wu0">
+                            <rect key="frame" x="24" y="24" width="94.5" height="87.5"/>
+                            <string key="text">Super
+Memo</string>
+                            <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="32"/>
+                            <color key="textColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTc-fP-wDw">
+                            <rect key="frame" x="24" y="127.5" width="71" height="31"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Играть">
+                                <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </buttonConfiguration>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.9137254901960784" green="0.27843137254901962" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="hTc-fP-wDw" firstAttribute="leading" secondItem="YbN-Ll-2Jw" secondAttribute="leading" constant="24" id="1Qw-rQ-5Gq"/>
+                        <constraint firstAttribute="height" constant="176" id="5Oe-UX-m2J"/>
+                        <constraint firstItem="rM1-Fl-Wu0" firstAttribute="top" secondItem="YbN-Ll-2Jw" secondAttribute="top" constant="24" id="74w-YU-qBh"/>
+                        <constraint firstItem="hTc-fP-wDw" firstAttribute="top" secondItem="rM1-Fl-Wu0" secondAttribute="bottom" constant="16" id="Bxt-S1-fvO"/>
+                        <constraint firstItem="rM1-Fl-Wu0" firstAttribute="leading" secondItem="YbN-Ll-2Jw" secondAttribute="leading" constant="24" id="LTe-Jk-CW2"/>
+                        <constraint firstAttribute="bottom" secondItem="vrW-h7-q09" secondAttribute="bottom" id="PDo-Th-qhq"/>
+                        <constraint firstItem="vrW-h7-q09" firstAttribute="top" secondItem="YbN-Ll-2Jw" secondAttribute="top" id="iWN-iB-i4x"/>
+                        <constraint firstAttribute="trailing" secondItem="vrW-h7-q09" secondAttribute="trailing" id="jgO-Hi-alz"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.13725490200000001" green="0.1333333333" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="YbN-Ll-2Jw" secondAttribute="trailing" constant="24" id="3F2-XO-UOp"/>
+                <constraint firstItem="YbN-Ll-2Jw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="3Qj-TD-dkV"/>
+                <constraint firstItem="4pz-Q3-g2E" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="CD0-T9-rFQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1g0-fx-Eox" secondAttribute="trailing" constant="24" id="I0y-96-37g"/>
+                <constraint firstItem="1g0-fx-Eox" firstAttribute="top" secondItem="avS-Iu-sGd" secondAttribute="bottom" constant="40" id="NlF-7y-RZh"/>
+                <constraint firstItem="2GA-RO-tpG" firstAttribute="top" secondItem="1g0-fx-Eox" secondAttribute="bottom" constant="40" id="Pa6-2a-M6d"/>
+                <constraint firstItem="avS-Iu-sGd" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Rn1-8s-tZ3"/>
+                <constraint firstItem="2GA-RO-tpG" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="Z5s-wz-TlW"/>
+                <constraint firstItem="avS-Iu-sGd" firstAttribute="top" secondItem="4pz-Q3-g2E" secondAttribute="bottom" constant="16" id="oxI-hz-hQ9"/>
+                <constraint firstItem="YbN-Ll-2Jw" firstAttribute="top" secondItem="2GA-RO-tpG" secondAttribute="bottom" constant="16" id="pda-tu-rn2"/>
+                <constraint firstItem="1g0-fx-Eox" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="qNY-k1-eYj"/>
+                <constraint firstItem="4pz-Q3-g2E" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="56" id="yXY-pr-x8S"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="76"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="avatar" width="128" height="128"/>
+        <image name="kekl" width="148" height="176"/>
+    </resources>
+</document>

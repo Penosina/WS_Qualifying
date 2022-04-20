@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Manrope-Bold.ttf">
+            <string>Manrope-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="WS_Qualifying" customModuleProvider="target">
+            <connections>
+                <outlet property="stackView" destination="so9-Zn-JBv" id="T0s-sY-FqU"/>
+                <outlet property="tableView" destination="DDI-v3-5gH" id="ZIQ-Nb-g4c"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Популярно" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dua-gy-UUV">
+                    <rect key="frame" x="24" y="60" width="222" height="55"/>
+                    <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="40"/>
+                    <color key="textColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Все игры" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GrK-Lz-S1d">
+                    <rect key="frame" x="24" y="339" width="179" height="55"/>
+                    <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="40"/>
+                    <color key="textColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlw-1Q-Jlc">
+                    <rect key="frame" x="0.0" y="131" width="414" height="176"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="so9-Zn-JBv">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="176"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="176" id="GdF-fH-fDb"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="G6W-Qq-wCn" firstAttribute="trailing" secondItem="so9-Zn-JBv" secondAttribute="trailing" id="9of-kx-cms"/>
+                        <constraint firstItem="so9-Zn-JBv" firstAttribute="leading" secondItem="G6W-Qq-wCn" secondAttribute="leading" id="F2C-EC-edj"/>
+                        <constraint firstItem="so9-Zn-JBv" firstAttribute="top" secondItem="rlw-1Q-Jlc" secondAttribute="top" id="NnD-cF-F78"/>
+                        <constraint firstAttribute="height" constant="176" id="kqK-N5-0UM"/>
+                        <constraint firstAttribute="bottom" secondItem="so9-Zn-JBv" secondAttribute="bottom" id="ngj-ot-KJf"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="G6W-Qq-wCn"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="O1A-Az-hVo"/>
+                </scrollView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="DDI-v3-5gH">
+                    <rect key="frame" x="16" y="410" width="382" height="436"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.13725490200000001" green="0.1333333333" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dua-gy-UUV" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="1Rv-65-ucg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="DDI-v3-5gH" secondAttribute="bottom" constant="16" id="5ON-kT-IUK"/>
+                <constraint firstItem="DDI-v3-5gH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="JcO-9W-5Mc"/>
+                <constraint firstItem="DDI-v3-5gH" firstAttribute="top" secondItem="GrK-Lz-S1d" secondAttribute="bottom" constant="16" id="KO0-LQ-dHc"/>
+                <constraint firstItem="GrK-Lz-S1d" firstAttribute="top" secondItem="rlw-1Q-Jlc" secondAttribute="bottom" constant="32" id="SVe-c2-rgO"/>
+                <constraint firstItem="rlw-1Q-Jlc" firstAttribute="top" secondItem="dua-gy-UUV" secondAttribute="bottom" constant="16" id="dyL-LR-m7D"/>
+                <constraint firstItem="GrK-Lz-S1d" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="fS8-Kx-7K6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rlw-1Q-Jlc" secondAttribute="trailing" id="olg-uW-DoO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="DDI-v3-5gH" secondAttribute="trailing" constant="16" id="u6L-Fq-yrQ"/>
+                <constraint firstItem="dua-gy-UUV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="vVs-K5-5tU"/>
+                <constraint firstItem="rlw-1Q-Jlc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="vy2-hY-88m"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="95.758928571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

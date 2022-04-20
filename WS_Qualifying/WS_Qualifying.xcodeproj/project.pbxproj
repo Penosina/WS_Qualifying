@@ -10,9 +10,37 @@
 		CEE8598728104661005951D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8598628104661005951D9 /* AppDelegate.swift */; };
 		CEE8598928104661005951D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8598828104661005951D9 /* SceneDelegate.swift */; };
 		CEE8598B28104661005951D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8598A28104661005951D9 /* ViewController.swift */; };
-		CEE8598E28104661005951D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE8598C28104661005951D9 /* Main.storyboard */; };
 		CEE8599028104662005951D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE8598F28104662005951D9 /* Assets.xcassets */; };
 		CEE8599328104662005951D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE8599128104662005951D9 /* LaunchScreen.storyboard */; };
+		CEE8599F28105086005951D9 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8599D28105086005951D9 /* OnboardingViewController.swift */; };
+		CEE859A028105086005951D9 /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE8599E28105086005951D9 /* OnboardingViewController.xib */; };
+		CEE859A228105212005951D9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE859A128105212005951D9 /* NetworkManager.swift */; };
+		CEE859A528105228005951D9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CEE859A428105228005951D9 /* Alamofire */; };
+		CEE859A828105232005951D9 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CEE859A728105232005951D9 /* Kingfisher */; };
+		CEE859AB28105240005951D9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CEE859AA28105240005951D9 /* SnapKit */; };
+		CEE859AE2810526F005951D9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE859AD2810526F005951D9 /* Models.swift */; };
+		CEE859B0281054C8005951D9 /* UIViewController+showAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE859AF281054C8005951D9 /* UIViewController+showAlert.swift */; };
+		CEE859B3281055A6005951D9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE859B2281055A6005951D9 /* TabBarController.swift */; };
+		CEE859B9281055DA005951D9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE859B7281055DA005951D9 /* MainViewController.swift */; };
+		CEE859BA281055DA005951D9 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE859B8281055DA005951D9 /* MainViewController.xib */; };
+		CEE859C528105655005951D9 /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEE859BE28105654005951D9 /* Manrope-Regular.ttf */; };
+		CEE859C628105655005951D9 /* Manrope-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEE859BF28105654005951D9 /* Manrope-ExtraLight.ttf */; };
+		CEE859C728105655005951D9 /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEE859C028105654005951D9 /* Manrope-Bold.ttf */; };
+		CEE859C828105655005951D9 /* Manrope-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEE859C128105654005951D9 /* Manrope-Light.ttf */; };
+		CEE859C928105655005951D9 /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEE859C228105654005951D9 /* Manrope-Medium.ttf */; };
+		CEE859CA28105655005951D9 /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEE859C328105655005951D9 /* Manrope-ExtraBold.ttf */; };
+		CEE859CB28105655005951D9 /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEE859C428105655005951D9 /* Manrope-SemiBold.ttf */; };
+		CEE859CF28105866005951D9 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE859CD28105866005951D9 /* GameTableViewCell.swift */; };
+		CEE859D028105866005951D9 /* GameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE859CE28105866005951D9 /* GameTableViewCell.xib */; };
+		CEE859D32810587B005951D9 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE859D22810587B005951D9 /* GameView.swift */; };
+		CEE859D628105D14005951D9 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE859D428105D14005951D9 /* RecordsViewController.swift */; };
+		CEE859D728105D14005951D9 /* RecordsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE859D528105D14005951D9 /* RecordsViewController.xib */; };
+		CEE859DA28105D1D005951D9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE859D828105D1D005951D9 /* ProfileViewController.swift */; };
+		CEE859DB28105D1D005951D9 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE859D928105D1D005951D9 /* ProfileViewController.xib */; };
+		CEE859DF28106EF5005951D9 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE859DD28106EF5005951D9 /* RecordTableViewCell.swift */; };
+		CEE859E028106EF5005951D9 /* RecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE859DE28106EF5005951D9 /* RecordTableViewCell.xib */; };
+		CEE859E428107163005951D9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE859E228107163005951D9 /* GameViewController.swift */; };
+		CEE859E528107163005951D9 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE859E328107163005951D9 /* GameViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +48,35 @@
 		CEE8598628104661005951D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE8598828104661005951D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CEE8598A28104661005951D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEE8598D28104661005951D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEE8598F28104662005951D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE8599228104662005951D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE8599428104662005951D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE8599D28105086005951D9 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		CEE8599E28105086005951D9 /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
+		CEE859A128105212005951D9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CEE859AD2810526F005951D9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CEE859AF281054C8005951D9 /* UIViewController+showAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+showAlert.swift"; sourceTree = "<group>"; };
+		CEE859B2281055A6005951D9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		CEE859B7281055DA005951D9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CEE859B8281055DA005951D9 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		CEE859BE28105654005951D9 /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Regular.ttf"; sourceTree = "<group>"; };
+		CEE859BF28105654005951D9 /* Manrope-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CEE859C028105654005951D9 /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		CEE859C128105654005951D9 /* Manrope-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Light.ttf"; sourceTree = "<group>"; };
+		CEE859C228105654005951D9 /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Medium.ttf"; sourceTree = "<group>"; };
+		CEE859C328105655005951D9 /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CEE859C428105655005951D9 /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		CEE859CD28105866005951D9 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		CEE859CE28105866005951D9 /* GameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameTableViewCell.xib; sourceTree = "<group>"; };
+		CEE859D22810587B005951D9 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		CEE859D428105D14005951D9 /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		CEE859D528105D14005951D9 /* RecordsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordsViewController.xib; sourceTree = "<group>"; };
+		CEE859D828105D1D005951D9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CEE859D928105D1D005951D9 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		CEE859DD28106EF5005951D9 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		CEE859DE28106EF5005951D9 /* RecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordTableViewCell.xib; sourceTree = "<group>"; };
+		CEE859E228107163005951D9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CEE859E328107163005951D9 /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE859AB28105240005951D9 /* SnapKit in Frameworks */,
+				CEE859A828105232005951D9 /* Kingfisher in Frameworks */,
+				CEE859A528105228005951D9 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +112,144 @@
 		CEE8598528104661005951D9 /* WS_Qualifying */ = {
 			isa = PBXGroup;
 			children = (
+				CEE8599B2810506D005951D9 /* Scenes */,
+				CEE8599A28105068005951D9 /* Custom */,
 				CEE8598628104661005951D9 /* AppDelegate.swift */,
 				CEE8598828104661005951D9 /* SceneDelegate.swift */,
 				CEE8598A28104661005951D9 /* ViewController.swift */,
-				CEE8598C28104661005951D9 /* Main.storyboard */,
 				CEE8598F28104662005951D9 /* Assets.xcassets */,
 				CEE8599128104662005951D9 /* LaunchScreen.storyboard */,
 				CEE8599428104662005951D9 /* Info.plist */,
 			);
 			path = WS_Qualifying;
+			sourceTree = "<group>";
+		};
+		CEE8599A28105068005951D9 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				CEE859BB2810560A005951D9 /* Fonts */,
+				CEE859AC28105266005951D9 /* Models */,
+				CEE859A128105212005951D9 /* NetworkManager.swift */,
+				CEE859AF281054C8005951D9 /* UIViewController+showAlert.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		CEE8599B2810506D005951D9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CEE859E128107150005951D9 /* Game */,
+				CEE859B128105591005951D9 /* TabBar */,
+				CEE8599C28105075005951D9 /* Onboarding */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CEE8599C28105075005951D9 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8599D28105086005951D9 /* OnboardingViewController.swift */,
+				CEE8599E28105086005951D9 /* OnboardingViewController.xib */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		CEE859AC28105266005951D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEE859AD2810526F005951D9 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEE859B128105591005951D9 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CEE859B6281055C8005951D9 /* Profile */,
+				CEE859B5281055C2005951D9 /* Records */,
+				CEE859B4281055B4005951D9 /* Main */,
+				CEE859B2281055A6005951D9 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CEE859B4281055B4005951D9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CEE859D128105869005951D9 /* GameView */,
+				CEE859CC28105850005951D9 /* TableViewCell */,
+				CEE859B7281055DA005951D9 /* MainViewController.swift */,
+				CEE859B8281055DA005951D9 /* MainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CEE859B5281055C2005951D9 /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				CEE859DC28106EE1005951D9 /* TableViewCell */,
+				CEE859D428105D14005951D9 /* RecordsViewController.swift */,
+				CEE859D528105D14005951D9 /* RecordsViewController.xib */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+		CEE859B6281055C8005951D9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CEE859D828105D1D005951D9 /* ProfileViewController.swift */,
+				CEE859D928105D1D005951D9 /* ProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CEE859BB2810560A005951D9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CEE859C028105654005951D9 /* Manrope-Bold.ttf */,
+				CEE859C328105655005951D9 /* Manrope-ExtraBold.ttf */,
+				CEE859BF28105654005951D9 /* Manrope-ExtraLight.ttf */,
+				CEE859C128105654005951D9 /* Manrope-Light.ttf */,
+				CEE859C228105654005951D9 /* Manrope-Medium.ttf */,
+				CEE859BE28105654005951D9 /* Manrope-Regular.ttf */,
+				CEE859C428105655005951D9 /* Manrope-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CEE859CC28105850005951D9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEE859CD28105866005951D9 /* GameTableViewCell.swift */,
+				CEE859CE28105866005951D9 /* GameTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		CEE859D128105869005951D9 /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				CEE859D22810587B005951D9 /* GameView.swift */,
+			);
+			path = GameView;
+			sourceTree = "<group>";
+		};
+		CEE859DC28106EE1005951D9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEE859DD28106EF5005951D9 /* RecordTableViewCell.swift */,
+				CEE859DE28106EF5005951D9 /* RecordTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		CEE859E128107150005951D9 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				CEE859E228107163005951D9 /* GameViewController.swift */,
+				CEE859E328107163005951D9 /* GameViewController.xib */,
+			);
+			path = Game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +268,11 @@
 			dependencies = (
 			);
 			name = WS_Qualifying;
+			packageProductDependencies = (
+				CEE859A428105228005951D9 /* Alamofire */,
+				CEE859A728105232005951D9 /* Kingfisher */,
+				CEE859AA28105240005951D9 /* SnapKit */,
+			);
 			productName = WS_Qualifying;
 			productReference = CEE8598328104661005951D9 /* WS_Qualifying.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +301,11 @@
 				Base,
 			);
 			mainGroup = CEE8597A28104661005951D9;
+			packageReferences = (
+				CEE859A328105228005951D9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				CEE859A628105232005951D9 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				CEE859A928105240005951D9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = CEE8598428104661005951D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +320,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE859E528107163005951D9 /* GameViewController.xib in Resources */,
+				CEE859DB28105D1D005951D9 /* ProfileViewController.xib in Resources */,
 				CEE8599328104662005951D9 /* LaunchScreen.storyboard in Resources */,
+				CEE859C628105655005951D9 /* Manrope-ExtraLight.ttf in Resources */,
+				CEE859C528105655005951D9 /* Manrope-Regular.ttf in Resources */,
+				CEE859C728105655005951D9 /* Manrope-Bold.ttf in Resources */,
+				CEE859CB28105655005951D9 /* Manrope-SemiBold.ttf in Resources */,
+				CEE859C828105655005951D9 /* Manrope-Light.ttf in Resources */,
+				CEE859CA28105655005951D9 /* Manrope-ExtraBold.ttf in Resources */,
+				CEE859E028106EF5005951D9 /* RecordTableViewCell.xib in Resources */,
 				CEE8599028104662005951D9 /* Assets.xcassets in Resources */,
-				CEE8598E28104661005951D9 /* Main.storyboard in Resources */,
+				CEE859C928105655005951D9 /* Manrope-Medium.ttf in Resources */,
+				CEE859D728105D14005951D9 /* RecordsViewController.xib in Resources */,
+				CEE859A028105086005951D9 /* OnboardingViewController.xib in Resources */,
+				CEE859BA281055DA005951D9 /* MainViewController.xib in Resources */,
+				CEE859D028105866005951D9 /* GameTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,22 +347,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE8598B28104661005951D9 /* ViewController.swift in Sources */,
+				CEE859B3281055A6005951D9 /* TabBarController.swift in Sources */,
+				CEE859DF28106EF5005951D9 /* RecordTableViewCell.swift in Sources */,
 				CEE8598728104661005951D9 /* AppDelegate.swift in Sources */,
+				CEE859A228105212005951D9 /* NetworkManager.swift in Sources */,
+				CEE859B0281054C8005951D9 /* UIViewController+showAlert.swift in Sources */,
+				CEE859D32810587B005951D9 /* GameView.swift in Sources */,
+				CEE859CF28105866005951D9 /* GameTableViewCell.swift in Sources */,
+				CEE859AE2810526F005951D9 /* Models.swift in Sources */,
+				CEE859B9281055DA005951D9 /* MainViewController.swift in Sources */,
+				CEE859E428107163005951D9 /* GameViewController.swift in Sources */,
 				CEE8598928104661005951D9 /* SceneDelegate.swift in Sources */,
+				CEE859DA28105D1D005951D9 /* ProfileViewController.swift in Sources */,
+				CEE8599F28105086005951D9 /* OnboardingViewController.swift in Sources */,
+				CEE859D628105D14005951D9 /* RecordsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CEE8598C28104661005951D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEE8598D28104661005951D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEE8599128104662005951D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,7 +504,7 @@
 				INFOPLIST_FILE = WS_Qualifying/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +532,7 @@
 				INFOPLIST_FILE = WS_Qualifying/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +570,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEE859A328105228005951D9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		CEE859A628105232005951D9 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		CEE859A928105240005951D9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEE859A428105228005951D9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE859A328105228005951D9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		CEE859A728105232005951D9 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE859A628105232005951D9 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		CEE859AA28105240005951D9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE859A928105240005951D9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEE8597B28104661005951D9 /* Project object */;
 }
